@@ -1,0 +1,30 @@
+Exchange rate                   : EXCHRT MPIN                 for example (EXCHRT 2345)
+Outstanding loan balance        : MLOB Account-code MPIN      for example (MLOB 1 2345)
+Maturity date of your loan 	: MLMD Account-code MPIN      for example (MLMD 2 2345)
+Next payment date of your loan  : MDUE  Account-code MPIN     for example (MDUE 3 2345)
+TO CHECK LC BAL                 : MLCB Account number MPIN
+TO CHECK BC BAL                 : MBCB Account number MPIN
+To Activate your account 	: MACTI <activation code> <MPIN>
+
+To know your account balance 	: MBAL <account type>  <MPIN> 
+To Transfer to another account  : MP2P <account type> <amount> <destination mobile #> <MPIN>
+To get a miniStatement		: MQUICKST <account type> <MPIN>
+To Transfer to own account	: MFUNDTRF PRITOSEC <amount> <MPIN>
+To stop check payment		: MSTOP <account type> <cheque #> <reason> <MPIN>
+
+To Change PIN number		: MCHPIN <Old PIN><New PIN><New PIN> for exampl (MCHPIN 2312 3344 3344)
+
+
+
+hi dear
+
+*************************
+2. Mobile-Banking: <account type> = PRI / SEC
+• MBAL <account type> <MPIN>
+• MP2P <account type> <amount> <destination mobile #> <MPIN>
+• MQUICKST <account type> <MPIN>
+• MACTI <activation code> <MPIN>
+• MFUNDTRF PRITOSEC <amount> <MPIN>
+• MSTOP <account type> <cheque #> <reason> <MPIN>
+******************************
+
